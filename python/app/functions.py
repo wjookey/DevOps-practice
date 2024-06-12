@@ -1,6 +1,3 @@
-from math import log
-
-
 def hello_world():
     print("Hello, world!")
 

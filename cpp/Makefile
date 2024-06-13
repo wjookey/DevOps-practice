@@ -4,7 +4,7 @@ INCLUDE = include
 
 all: main clean
 clean:
-	del /f main *.o
+	rm *.o
 main: main.o Counter.o
 	mkdir bin | $(CXX) $(CXXFLAGS) $^ -o bin/$@.exe
 
